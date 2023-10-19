@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Psalm Security Scan
         uses: psalm/psalm-github-security-scan@e7404b8a4a01629e647686847e284ee82cfeaa07
